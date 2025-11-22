@@ -1,0 +1,36 @@
+# Sales Data Cleaning & Analysis
+
+This is my first Python Pandas project.  
+The notebook includes data cleaning, preparation, and analysis of sales data, along with generating basic insights.
+
+# Project Overview
+The project follows these main steps:
+
+1.Loading Dataset  
+Load the raw sales data using Pandas   
+Preview the first few rows of the dataset
+
+2.Handling Missing Values 
+Check for null values  
+Fill missing values in the TERRITORY column with 'Unknown Region'
+
+3.Dropping Irrelevant Columns  
+Removed irrelevant columns 
+
+4.Preparing Date Columns  
+Convert ORDERDATE to datetime  
+Extract Month and Year for analysis
+
+5.Generating Insights  
+Monthly Sales: Total sales per month and year  
+Yearly Sales: Total sales per year, sorted descending  
+City-wise Sales: Total sales per city, sorted descending  
+Top Product Lines: Top 5 product lines by total sales
+
+# Files Included
+Sales_Data_Analysis.ipynb (Notebook with full code and analysis) 
+cleaned_sales_data.csv (Cleaned dataset)
+
+
+The cleaned dataset is included for direct analysis  
+This project demonstrates basic data cleaning, preparation, and analysis skills in Python
